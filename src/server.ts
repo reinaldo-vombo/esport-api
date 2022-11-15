@@ -88,4 +88,4 @@ app.get('/games/:id/discord', async (request, response) => {
   })
 })
 
-app.listen(3333)
+app.listen(process.env.port || 3333, () => console.log('server is runing'))
