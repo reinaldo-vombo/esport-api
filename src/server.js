@@ -85,4 +85,4 @@ app.get('/games/:id/discord', (request, response) => __awaiter(void 0, void 0, v
         discord: ad.discord
     });
 }));
-app.listen(3333);
+app.listen(process.env.port || 3333, () => console.log('server is runing'));
