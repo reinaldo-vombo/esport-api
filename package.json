@@ -5,6 +5,7 @@
   "main": "src/server.mjs",
   "scripts": {
     "build": "tsc",
+    "start": "node src/server.js",
     "dev": "tsnd --exit-child src/server.ts"
   },
   "keywords": [],
